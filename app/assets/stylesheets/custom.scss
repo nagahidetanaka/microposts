@@ -131,6 +131,9 @@ aside {
       margin-bottom: 3px;
       margin-top: 0px;
     }
+    ul {
+      list-style: none;
+    }
   }
 }
 
@@ -138,6 +141,7 @@ aside {
   float: left;
   margin-right: 10px;
 }
+
 
 /* microposts */
 
@@ -176,5 +180,25 @@ aside {
   textarea {
     height: 100px;
     margin-bottom: 5px;
+  }
+}
+
+/* users */
+
+.users {
+  list-style: none;
+  padding: 0;
+  li {
+    padding: 10px 0 50px 0;
+    border-top: 1px solid #e8e8e8;
+  }
+  .user {
+    margin-top: 5em;
+    padding-top: 0;
+  }
+  .gravatar {
+    float: left;
+    margin-right: 10px;
+    margin-top: 5px;
   }
 }
